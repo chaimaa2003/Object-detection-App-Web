@@ -58,17 +58,16 @@
         <!-- Main row -->
         <div class="row">
           <!-- Left col -->
-          <!--<section class="col-lg-6 connectedSortable">
-             Custom tabs (Charts with tabs)
+          <section class="col-lg-6 connectedSortable">
+             <!--Custom tabs (Charts with tabs)-->
             <div class="card">
-              <div class="card-header">
+              <!--<div class="card-header">
                 <h3 class="card-title">
-                  <i class="fas fa-chart-pie mr-1"></i>
                   Plastic Object Detection
                 </h3>
-              </div>/.card-header 
+              </div>--><!--/.card-header -->
               <div class="card-body">
-                <div class="tab-content p-0">-->
+                <div class="tab-content p-0">
                    <!--Morris chart - Sales -->
                   <div class="chart tab-pane active" id="revenue-chart"
                         style="position: relative; height: 700px;">
@@ -101,50 +100,7 @@
           </section>
 		  
 		  
-		            <section class="col-lg-6 connectedSortable">
-            <!--Custom tabs (Charts with tabs)-->
-            <div class="card">
-              <div class="card-body">
-                <div class="tab-content p-0">
-                  <!--Morris chart - Sales --> 
-                  <div class="chart tab-pane active" id="revenue-chart"
-                        style="position: relative; height: 700px;">
-            
-			<!-- AI code-->
-
-
-
-<!-- detected image display -->
-<img id="my-image"  src="{{ url_for('predict_img', filename=image_path) }}" style="height:640; width:640px; display: none;"/> 
-
-<script>
-document.getElementById("my-image").onload = function() {
-  this.style.display = "block";
-};
-</script>
-
-<!-- detected video display using opencv-->
-<img id="my-video-image" src="{{ url_for('video_feed') }}" style="height:640; width:640px; display: none;" />
-
-<script>
-document.getElementById("my-video-image").onload = function() {
-  this.style.display = "block";
-};
-</script>
-
-
-<!-- AI code ends here-->		
-
-                    </div>
-                 
-                </div>
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-
-            
-      
-          </section>
+		 <!---->
 		  
 		  
 		  
